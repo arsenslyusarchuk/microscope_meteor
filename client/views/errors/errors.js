@@ -6,7 +6,6 @@ throwError = function(message) {
 
 clearErrors = function() {
   Errors.remove({seen: true});
-  console.warn('asdasdasdasd')
 }
 
 Template.errors.helpers({
