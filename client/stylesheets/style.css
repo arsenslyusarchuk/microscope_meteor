@@ -90,6 +90,12 @@ body {
   .comments li p:last-child {
     margin-bottom: 0; }
 
+form[name='comment'] textarea{
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
 .dropdown-menu span {
   display: block;
   padding: 3px 20px;
