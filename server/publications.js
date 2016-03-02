@@ -25,3 +25,8 @@ Meteor.publish('comments_for_post', function(postId) {
   check(postId, String);
   return Comments.find({postId: postId});
 });
+
+///////////////Notifications///////////////////
+Meteor.publish('notifications', function() {
+  return Notifications.find();
+});
