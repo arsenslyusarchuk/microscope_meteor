@@ -25,3 +25,5 @@ ian:accounts-ui-bootstrap-3
 audit-argument-checks
 check
 multiply:iron-router-progress
+react
+react-template-helper

@@ -4,7 +4,8 @@
       <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
       <p>
         submitted by {{author}}
-        <a href="{{pathFor 'postPage'}}">{{commentsCount}} comments</a>
+        <!--<a href="{{pathFor 'postPage'}}">{{commentsCount}} comments</a> -->
+        <div>{{> React component=CommentsCountComponent postId=_id path=(pathFor 'postPage')}}</div>
         {{#if ownPost}}<a href="{{pathFor 'postEdit'}}">Edit</a>{{/if}}
       </p>
     </div>
